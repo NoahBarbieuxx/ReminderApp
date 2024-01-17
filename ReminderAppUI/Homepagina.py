@@ -41,7 +41,6 @@ class Homepagina:
         # Rechterkant
         tk.Label(self.right_frame, text="Dit is de graduaatsproef van Noah Barbieux:", font=("Inter", 14, "bold"), bg="#FF4141", fg="white").pack(pady=(30, 0))
 
-
         image_path = "images/logo.png"
         self.logo_image = tk.PhotoImage(file=image_path)
         tk.Label(self.right_frame, image=self.logo_image).pack(pady=(40, 0))
